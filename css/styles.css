@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #205080;
+    width: 330px;
+    display: flex;
+    padding: 15px;
+    color: #fff;
+}
+
+[quti]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.left-icon{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+main{
+    background-color: #153453;
+    width: 330px;
+    height: 500px;
+}
+
+.logo{
+    margin-left: 6px;
+    margin-top: -2px;
+}
+
+/* ****** */
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin-left: 54px;
+}
+
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background-color: #153453;
+    color: #fff;
+    font-size: 15px;
+}
+
+.passeword{
+    width: 240px;
+    margin-top: 3px;
+}
+
+[one-input]{
+    margin-bottom: 47px;
+    margin-top: 12px;
+    width: 194px;
+} 
+
+.input-box{
+    display: flex;
+}
+
+.input-icon-phone{
+    margin-top: 17px;
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.input-icon-eye{
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    /* margin-left: 197px; */
+}
+
+.pw-input{
+    position: relative;
+}
+/* Register section */
+.entry{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.login{
+    width: 220px;
+    background-color: #205080;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 27px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 14px;
+}
+/* Social media */
+.social{
+    margin-top: 25px;
+    display: flex;
+    width: 240px;
+    justify-content: space-evenly;
+    margin-left: 42px;
+}
+
+.main-social{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 4, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.po-social{
+    background-color: #fff;
+    font-weight: bold;
+    color: #153453;
+    font-size: 20px;
+}
+
+/* Footer */
+.register{
+    width: 330px;
+    background-color: #205080;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: auto;
+    margin-top: 88px;
+    height: 39px;
+    font-size: 17px;
+}
